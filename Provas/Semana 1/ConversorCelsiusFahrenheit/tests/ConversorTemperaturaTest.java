@@ -8,7 +8,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
-public class ConversorTemperatura {
+public class NovoTeste {
   private WebDriver driver;
   private String baseUrl;
   private boolean acceptNextAlert = true;
@@ -24,16 +24,8 @@ public class ConversorTemperatura {
   }
 
   @Test
-  public void testConversorTemperatura() throws Exception {
+  public void testNovoTeste() throws Exception {
     driver.get("http://localhost:8080/ConversorCelsiusFahrenheit/index.jsp");
-    driver.findElement(By.name("tipo")).click();
-    driver.findElement(By.name("calc")).click();
-    driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Você não digitou um valor no campo, informar um valor é obrigatório'])[1]/following::button[1]")).click();
-    driver.findElement(By.name("valor")).click();
-    driver.findElement(By.name("valor")).clear();
-    driver.findElement(By.name("valor")).sendKeys("100");
-    driver.findElement(By.name("calc")).click();
-    driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Não foi possivel realizar o calculo, selecione um modo de conversão para poder realizar o calculo.'])[1]/following::button[1]")).click();
     driver.findElement(By.xpath("(//input[@name='tipo'])[2]")).click();
     driver.findElement(By.name("valor")).click();
     driver.findElement(By.name("valor")).clear();
@@ -48,8 +40,7 @@ public class ConversorTemperatura {
     driver.findElement(By.name("valor")).sendKeys("212");
     driver.findElement(By.name("calc")).click();
     driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Realize Outra Conversão'])[1]/preceding::h1[1]")).click();
-    assertEquals(driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Realize Outra Conversão'])[1]/preceding::h1[1]")).getText(), "O resultado da conversão de Fahrenheit para Celsius é: 100");
-    driver.findElement(By.xpath("//*/text()[normalize-space(.)='Realize Outra Conversão']/parent::*")).click();
+    assertEquals(driver.getTitle(), "Resultado da soma");
   }
 
   @AfterClass(alwaysRun = true)
