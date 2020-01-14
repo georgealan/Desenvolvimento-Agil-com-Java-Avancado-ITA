@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12bc664d-5c4d-4712-b360-419723eac9a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/NovoTeste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Provas/Semana 1/ConversorCelsiusFahrenheit/ConversorCelsiusFahrenheit.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/TesteFuncionalSomarParcelas/NovoTeste.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/TesteFuncionalSomarParcelas/NovoTeste.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/NovoTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/NovoTeste.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +41,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -120,6 +122,7 @@
       <workItem from="1577404886390" duration="988000" />
       <workItem from="1577408303274" duration="1367000" />
       <workItem from="1577480614089" duration="366000" />
+      <workItem from="1578250565389" duration="325000" />
     </task>
     <servers />
   </component>
@@ -131,34 +134,34 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="740" y="295" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1577404932863" />
-    <state width="1877" height="254" key="GridCell.Tab.0.bottom" timestamp="1577480990986">
+    <state width="1877" height="264" key="GridCell.Tab.0.bottom" timestamp="1578250891895">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="287" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1577409672275" />
-    <state width="1877" height="254" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1577480990986" />
-    <state width="1877" height="254" key="GridCell.Tab.0.center" timestamp="1577480990986">
+    <state width="1877" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1578250891895" />
+    <state width="1877" height="264" key="GridCell.Tab.0.center" timestamp="1578250891894">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="287" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1577409672275" />
-    <state width="1877" height="254" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1577480990986" />
-    <state width="1877" height="254" key="GridCell.Tab.0.left" timestamp="1577480990986">
+    <state width="1877" height="264" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1578250891894" />
+    <state width="1877" height="264" key="GridCell.Tab.0.left" timestamp="1578250891894">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="287" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1577409672275" />
-    <state width="1877" height="254" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1577480990986" />
-    <state width="1877" height="254" key="GridCell.Tab.0.right" timestamp="1577480990986">
+    <state width="1877" height="264" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1578250891894" />
+    <state width="1877" height="264" key="GridCell.Tab.0.right" timestamp="1578250891895">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="287" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1577409672275" />
-    <state width="1877" height="254" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1577480990986" />
+    <state width="1877" height="264" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1578250891895" />
     <state x="440" y="115" key="SettingsEditor" timestamp="1577404952786">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="440" y="115" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1577404952786" />
-    <state x="2575" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1577480618973">
+    <state x="2575" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1578250565610">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="655" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1577397913573" />
-    <state x="2575" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1577480618973" />
+    <state x="2575" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1578250565610" />
   </component>
 </project>

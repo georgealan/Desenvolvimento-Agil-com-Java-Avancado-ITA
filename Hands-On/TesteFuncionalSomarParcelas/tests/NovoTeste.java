@@ -1,13 +1,11 @@
-import org.openqa.selenium.*;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
-
 import java.util.concurrent.TimeUnit;
 
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.fail;
+import org.testng.annotations.*;
+
+import static org.testng.Assert.*;
+
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 public class NovoTeste {
     private WebDriver driver;
@@ -25,23 +23,17 @@ public class NovoTeste {
     }
 
     @Test
-    public void testNovoTeste() throws Exception {
-        driver.get("http://localhost:8080/ConversorCelsiusFahrenheit/index.jsp");
-        driver.findElement(By.xpath("(//input[@name='tipo'])[2]")).click();
-        driver.findElement(By.name("valor")).click();
-        driver.findElement(By.name("valor")).clear();
-        driver.findElement(By.name("valor")).sendKeys("100");
-        driver.findElement(By.name("calc")).click();
-        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Realize Outra Conversão'])[1]/preceding::h1[1]")).click();
-        assertEquals(driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Realize Outra Conversão'])[1]/preceding::h1[1]")).getText(), "O resultado da conversão de Celsius para Fahrenheit é: 212");
-        driver.findElement(By.xpath("//*/text()[normalize-space(.)='Realize Outra Conversão']/parent::*")).click();
-        driver.findElement(By.name("tipo")).click();
-        driver.findElement(By.name("valor")).click();
-        driver.findElement(By.name("valor")).clear();
-        driver.findElement(By.name("valor")).sendKeys("212");
-        driver.findElement(By.name("calc")).click();
-        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Realize Outra Conversão'])[1]/preceding::h1[1]")).click();
-        assertEquals(driver.getTitle(), "Resultado da soma");
+    public void testUntitledTestCase() throws Exception {
+        driver.get("http://localhost:8080/TradutorWeb/index.jsp");
+        driver.findElement(By.name("palavra")).click();
+        driver.findElement(By.name("palavra")).clear();
+        driver.findElement(By.name("palavra")).sendKeys("abacaxi");
+        driver.findElement(By.xpath("//input[@value='Traduzir']")).click();
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Pineapple'])[1]/following::button[1]")).click();
+        driver.findElement(By.name("palavra")).click();
+        driver.findElement(By.name("palavra")).clear();
+        driver.findElement(By.name("palavra")).sendKeys("poluir");
+        driver.findElement(By.xpath("//input[@value='Traduzir']")).click();
     }
 
     @AfterClass(alwaysRun = true)
